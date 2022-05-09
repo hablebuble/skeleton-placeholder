@@ -11,6 +11,7 @@
 		B98FFCDF2827C02300616649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FFCDE2827C02300616649 /* ContentView.swift */; };
 		B98FFCE12827C03000616649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98FFCE02827C03000616649 /* Assets.xcassets */; };
 		B98FFCE42827C03000616649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98FFCE32827C03000616649 /* Preview Assets.xcassets */; };
+		B98FFCEB2827C0A100616649 /* SkeletonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FFCEA2827C0A100616649 /* SkeletonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B98FFCDE2827C02300616649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B98FFCE02827C03000616649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98FFCE32827C03000616649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B98FFCEA2827C0A100616649 /* SkeletonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B98FFCDE2827C02300616649 /* ContentView.swift */,
 				B98FFCE02827C03000616649 /* Assets.xcassets */,
 				B98FFCE22827C03000616649 /* Preview Content */,
+				B98FFCEA2827C0A100616649 /* SkeletonRow.swift */,
 			);
 			path = "skeleton-placeholder";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98FFCDF2827C02300616649 /* ContentView.swift in Sources */,
+				B98FFCEB2827C0A100616649 /* SkeletonRow.swift in Sources */,
 				B98FFCDD2827C02300616649 /* skeleton_placeholderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

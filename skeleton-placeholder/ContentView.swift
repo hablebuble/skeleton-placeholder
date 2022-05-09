@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ScrollView {
+                ForEach(0..<4) {_ in
+                    SkeletonRow()
+                        .padding(.vertical)
+                }
+                .padding()
+            }
+            .navigationTitle("Skeleton Views Demo")
+        }
     }
 }
 
